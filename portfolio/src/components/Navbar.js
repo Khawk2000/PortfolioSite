@@ -30,8 +30,8 @@ function Navbar() {
     <>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link path='/' className='navbar-logo'>
-                    PORTFOLIO<FontAwesomeIcon icon={faBriefcase} onClick={closeMobileMenu}/>
+                <Link to='/' className='navbar-logo'>
+                    <p className='navbar-title'>Keegan Hawkins</p><FontAwesomeIcon icon={faBriefcase} onClick={closeMobileMenu}/>
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                   <FontAwesomeIcon icon={click ? faTimes : faBars} />

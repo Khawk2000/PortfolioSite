@@ -11,31 +11,19 @@ function Cards() {
         <div className="cards__wrapper">
             <ul className="cards__items">
                 <CardItem 
-                src='MF_Logo_Banner.png'
+                src='workoutbuddy.png'
                 text="Mental Fortitude Workout Buddy: Application that helps track and log workouts"
                 label="Full Stack"
                 path='https://www.mentalfortitudellc.com'
                 />
                 <CardItem 
                 src='MF_Logo_Banner.png'
-                text="Placeholder"
+                text="Mental Fortitude Nutrition Tracker: Coming soon..."
                 label="Full Stack"
-                path='/services'
+                path='/'
                 />
             </ul>
             <ul className="cards__items">
-                <CardItem 
-                src='MF_Logo_Banner.png'
-                text="Placeholder"
-                label="Full Stack"
-                path='/services'
-                />
-                <CardItem 
-                src='MF_Logo_Banner.png'
-                text="Placeholder"
-                label="Full Stack"
-                path='/services'
-                />
             </ul>
         </div>
       </div>

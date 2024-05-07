@@ -10,7 +10,6 @@ export default function Resume() {
         <ResumeSection></ResumeSection>
         <div className="resume-container">
             <div className="resume-pdf">
-                <h2>Resume</h2>
                 <iframe title="Resume" src='ResumeKH.pdf' width="1600px" height="1500px">Keegan Hawkins Resume</iframe>
             </div>
         </div>

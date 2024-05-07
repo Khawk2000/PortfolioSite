@@ -12,9 +12,8 @@ function HeroSection() {
       <h1>Portfolio</h1>
       <p>See what I have worked on</p>
       <div className="hero-btns">
-        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>Get Started</Button>
-        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>Watch Trailer <FontAwesomeIcon className='play-icon' icon={faPlay}/></Button>
-
+        <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large' goto='/contact'>Contact</Button>
+        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' goto="https://www.mentalfortitudellc.com">Best Project<FontAwesomeIcon className='play-icon' icon={faPlay}/></Button>
       </div>
     </div>
   )
