@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import AboutSection from '../AboutSection.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPersonSwimming, faGolfBallTee, faFishFins, faMicrochip, faPersonArrowUpFromLine  } from '@fortawesome/free-solid-svg-icons'
+import { faPersonSwimming, faGolfBallTee, faFishFins, faMicrochip, faPersonArrowUpFromLine, faVideo  } from '@fortawesome/free-solid-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { Button } from '../Button.js'
 
@@ -40,10 +40,10 @@ export default function About() {
                         <p className='interests-text'>I learned this very early on being in sports as a kid, but I try to apply it to everything in my life. 1% BETTER EVERYDAY!</p>
                     </div>
                     <div className='list-item-container'>
-                        <li className="interests-label">Video Editing <FontAwesomeIcon icon={faGolfBallTee}/></li>
+                        <li className="interests-label">Video Editing <FontAwesomeIcon icon={faVideo}/></li>
                         <p className='interests-text'>The past year and a half I've tried my hand at video editing. 
                         Originally just for my brothers youtube channel, but now I have a shared Youtube channel with my both my brothers where we bond over video games and having fun. 
-                        (Shameless plug)<Button buttonSize='btn--large' buttonStyle='btn--cool' goto='https://www.youtube.com/@HawkBrosGaming/featured'><FontAwesomeIcon icon={faYoutube}/> HawkBrosGaming</Button></p>
+                        (Shameless plug)<Button buttonSize='btn--large' buttonStyle='btn--cool' goto='https://www.youtube.com/@HawkBrosGaming/featured' className='YTplug'><FontAwesomeIcon icon={faYoutube}/> HawkBrosGaming</Button></p>
                     </div>
                 </ul>
             </section>
